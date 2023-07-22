@@ -44,7 +44,7 @@
         const primeiroValor = parseFloat(document.querySelector('#primeiro-valor').value)
         const segundoValor = parseFloat(document.querySelector('#segundo-valor').value)
         const operador = document.querySelector('#operador').value
-        let resultado = 0;
+        let resultado;
 
         switch (operador) {
             case 'somar':
@@ -58,9 +58,12 @@
                 break
             case 'dividir':
                 resultado = primeiroValor / segundoValor
+                if (resultado === Infinity) {
+                    resultado = 'Não pode dividir por 0'
+                }
                 break
             case 'porcentagem':
-                resultado = primeiroValor / segundoValor
+                resultado = (primeiroValor / 100) * segundoValor;
                 break
             default:
                 resultado = 'Insira o operador'
@@ -75,6 +78,7 @@
 
     function limpar() {
         document.querySelector('#primeiro-valor').value = ''
+        document.querySelector('#primeiro-valor').focus()
         document.querySelector('#segundo-valor').value = ''
         document.querySelector('#operador').value = 'selecione'
         document.querySelector('#resultado').value = ''
