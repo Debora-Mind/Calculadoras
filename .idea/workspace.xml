@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41c096d-0cd0-403f-a68e-f0a8bd355429" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CalculadoraVue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculadoraJQ.html" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraJQuery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculadoraJS.html" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraJS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CalculadoraAvancada.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +12,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,6 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -50,7 +57,9 @@
       <option name="presentableId" value="Default" />
       <updated>1689809789333</updated>
       <workItem from="1689809790735" duration="5044000" />
-      <workItem from="1690011619338" duration="10926000" />
+      <workItem from="1690011619338" duration="12131000" />
+      <workItem from="1690146147166" duration="28935000" />
+      <workItem from="1690471840872" duration="1211000" />
     </task>
     <servers />
   </component>
